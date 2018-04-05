@@ -1,0 +1,94 @@
+{
+    "bio": {
+        "first": "Saulius",
+        "last": "Skeirys",
+        "position": "Front End Engineer",
+        "about": "Energetic Software Engineer with can-do attitude and experience in building ES applications while reaching maximum application performance. Supportive and motivated team player, consistently sharing ideas how to improve project process and efficiency. Proficient building isomorphic and Progressive Web Applications."
+    },
+    "contacts": [
+        {
+            "icon": "envelope-o",
+            "key": "email",
+            "value": "saulske@email.com"
+        },
+        {
+            "icon": "phone",
+            "key": "phone",
+            "value": "630 345 2431"
+        },
+        {
+            "icon": "globe",
+            "key": "website",
+            "value": "skeirys.com"
+        },
+        {
+            "icon": "github",
+            "key": "website",
+            "value": "github.com/saulske"
+        },
+        {
+            "icon": "linkedin",
+            "key": "website",
+            "value": "linkedin.com/sskeirys"
+        }
+    ],
+    "skills": [ "React", "Node", "Java", "JSP", "ES6", "TypeScript", "Redux", "Angular", "Webpack", "Sass/Less", "PostCSS", "Jest"],
+    "experiences": [
+        {
+            "company": "Northern Trust, Chicago, IL",
+            "position": "Front End Engineer",
+            "timeperiod": "Since July 2017",
+            "highlights": [
+                "Developed and maintained React CLI to create multiple types React Application Boilerplates with PWA features",
+                "Developer centralized Webpack configuration which is being used by various applications and is extendable",
+                "Lead* (spearheaded) engineering brand new CSS design system pattern used by multiple teams (PostCSS + ITCSS/OOCSS/BEM)",
+                "Lead* engineering and building Reusable React Components Library used by multiple teams",
+                "Developed Platform CLI which can aggregate multiple React or Angular independent applications and share state",
+                "Automated CLI's delivery process using Selenium and Bamboo",
+                "Consultant and mentor for other teams"
+            ],
+            "keywords": [ "React", "Node", "Redux", "ES6", "TypeScript", "Jest", "Webpack", "PostCSS", "Zuul", "Attlasian" ]
+        },
+        {
+            "company": "Compusystems, Downers grove, IL",
+            "position": "Web Developer",
+            "timeperiod": "February 2015 - July 2017",
+            "highlights": [
+                "Create multiple registration sites for various companies such as, HIMSS, ASA and CES, and used by 12,000+ registrants.",
+                "Design custom administrative front-ends for clients by using Javascript frameworks such as React.",
+                "Utilized responsive design to create mobile-first websites with the help of Bootstrap and Foundation.",
+                "Integrate analytic software to ensure clients have up-to-date information about the status of their trade shows"
+            ],
+            "keywords": [ "Java", "JSP", "React", "ES6", "Webpack", "Grunt", "Less", "Git" ]
+        },
+        {
+            "company": "Adform, Vilnius, Lithuania",
+            "position": "Rich Media Technical Support Specialist",
+            "timeperiod": "November 2014 - January 2015",
+            "highlights": [
+                "Provided digital media support for clients and publishers",
+                "Build JS modules for Scandinavian and UK publishers to showcase Rich Media banners correctly",
+                "Part of the team that made Burberry Billboard run on Yahoo sites all around Europe, before format was certified"
+            ],
+            "keywords": [ "HTML5", "CSS", "Javascript", "jQuery", "ActionScript", "XML" ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor in Electronics Engineering",
+            "location": "Vilnius Gediminas Technical University",
+            "timeperiod": "September 2010 - June 2014"
+        }
+    ],
+    "projects": [
+        {
+            "title": "",
+            "link": null,
+            "description": ""
+        }
+    ],
+    "reference": {
+        "link": "https://www.linkedin.com/in/sauliusskeirys/"
+    },
+    "hobbies": [ "Basketball", "CrossFit", "Hiking/Camping" ]
+}
