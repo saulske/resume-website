@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactGA from 'react-ga';
 import { injectGlobal, ThemeProvider } from 'styled-components';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import colors from './constants/colors';
 import data from './data/resume.json';
 import 'font-awesome/css/font-awesome.min.css';
+
+if (process.env.NODE_ENV === 'production') ReactGA.initialize('UA-77208305-1');
 
 injectGlobal`
     body {
