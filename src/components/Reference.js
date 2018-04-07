@@ -10,14 +10,17 @@ const Link = styled.a`
   }
 `;
 
-const Reference = ({ data }) => (
-  <span>
-    <i>
-      <Link href={data.link} target="_blank">
-        Read here
-      </Link>
-    </i>
-  </span>
-);
+const Reference = ({ data }) => {
+  if (!data) return <div />;
+  return (
+    <span>
+      <i>
+        <Link href={data.link} target="_blank">
+          Read here
+        </Link>
+      </i>
+    </span>
+  );
+};
 
 export default Reference;
