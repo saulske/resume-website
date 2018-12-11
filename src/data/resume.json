@@ -2,19 +2,14 @@
     "bio": {
         "first": "Saulius",
         "last": "Skeirys",
-        "position": "Front End Engineer",
-        "about": "Energetic Software Engineer with can-do attitude and experience in building ES applications while reaching maximum application performance. Supportive and motivated team player, consistently sharing ideas how to improve project process and efficiency. Proficient building isomorphic and Progressive Web Applications."
+        "position": "Software Engineer",
+        "about": "Software Engineer with a can-do attitude and experience in building ES applications while reaching maximum application performance. Supportive and motivated team player, consistently sharing ideas on how to improve project process and efficiency. Proficient in building isomorphic applications and Progressive Web Apps."
     },
     "contacts": [
         {
             "icon": "envelope-o",
             "key": "email",
             "value": "saulske@email.com"
-        },
-        {
-            "icon": "phone",
-            "key": "phone",
-            "value": "630 345 2431"
         },
         {
             "icon": "globe",
@@ -32,22 +27,35 @@
             "value": "linkedin.com/sskeirys"
         }
     ],
-    "skills": [ "React", "Node", "Java", "JSP", "ES6", "TypeScript", "Redux", "Angular", "Webpack", "Sass/Less", "PostCSS", "Jest"],
+    "skills": [ "Javascript", "React & Redux", "GraphQL", "ES6", "JSP", "Node", "TypeScript", "Zuul", "LESS", "PostCSS", "Webpack", "Jest"],
     "experiences": [
+        {
+            "company": "Nike, Portland, OR",
+            "position": "Senior Front End Engineer",
+            "timeperiod": "Since May 2018",
+            "highlights": [
+                "Led Nike Member Access Admin application foundation and creation",
+                "Seperated client from business logic and developed Node & GraphQL middle layer to communicate with multiple AWS webservices",
+                "Provided e2e testing using Cypress and automated CI/CD process using Jenkins",
+                "Contributed to Nike Reusable Component Library",
+                "Application succesfully launched for China"
+            ],
+            "keywords": [ "React", "Node", "Redux", "ES6", "TypeScript", "Jest", "Webpack", "PostCSS", "Zuul", "Selenium" ]
+        },
         {
             "company": "Northern Trust, Chicago, IL",
             "position": "Front End Engineer",
-            "timeperiod": "Since July 2017",
+            "timeperiod": "July 2017 - May 2018",
             "highlights": [
-                "Developed and maintained React CLI to create multiple types React Application Boilerplates with PWA features",
-                "Developed centralized Webpack configuration which is being used by various applications and is extendable",
-                "Lead* (spearheaded) engineering brand new CSS design system pattern used by multiple teams (PostCSS + ITCSS/OOCSS/BEM)",
-                "Lead* engineering and building Reusable React Components Library used by multiple teams",
-                "Developed Platform CLI which can aggregate multiple React or Angular independent applications and share state",
+                "Developed and maintained React PWA CLI with custom features for multiple teams to use",
+                "Centralized Webpack configuration used by various applications",
+                "Led* (spearheaded) engineering CSS design system pattern used by multiple teams (PostCSS + ITCSS/OOCSS/BEM)",
+                "Led* engineering and building Reusable React Components Library used by multiple teams",
+                "Contributed to Platform CLI to be able aggregate multiple React or Angular independent applications, share and update state",
                 "Provided e2e testing using Selenium and automated CI/CD process using Bamboo",
-                "Consultant and mentor for other teams"
+                "Consultant on intricacies of implementing features and design accross multiple teams"
             ],
-            "keywords": [ "React", "Node", "Redux", "ES6", "TypeScript", "Jest", "Webpack", "PostCSS", "Zuul", "Attlasian" ]
+            "keywords": [ "React", "Node", "Redux", "ES6", "TypeScript", "Jest", "Webpack", "PostCSS", "Zuul", "Selenium" ]
         },
         {
             "company": "Compusystems, Downers grove, IL",
@@ -78,13 +86,6 @@
             "degree": "Bachelor in Electronics Engineering",
             "location": "Vilnius Gediminas Technical University",
             "timeperiod": "September 2010 - June 2014"
-        }
-    ],
-    "projects": [
-        {
-            "title": "",
-            "link": null,
-            "description": ""
         }
     ],
     "reference": {
