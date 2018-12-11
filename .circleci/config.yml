@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8
+    working_directory: /
+    steps:
+        - checkout
+        - run:
+            name: Hello world
+            command: echo "Hello world"
