@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import Keywords from './Keywords';
+
 import Highlights from './Highlights';
+import Keywords from './Keywords';
 
 const Container = styled.div`
   margin-bottom: 2em;
+  display: ${props => props.hidden ? 'none' : 'block'}
 `;
 
 const Header = styled.div`
@@ -33,8 +35,8 @@ const Company = styled.span`
   margin: 2px 0 10px;
 `;
 
-const Experience = ({ data }) => (
-  <Container>
+const Experience = ({data, hidden}) => (
+  <Container hidden={hidden}>
     <Header>
       <Title>{data.position}</Title>
       <Duration>{data.timeperiod}</Duration>
