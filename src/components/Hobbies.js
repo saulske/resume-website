@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+
 import SideTitle from './SideTitle';
 
 const Container = styled.div`
@@ -14,9 +15,9 @@ const Item = styled.li`
   margin-bottom: 10px;
 `;
 
-const Hobbies = ({ list }) => (
+const Hobbies = ({list}) => (
   <Container>
-    <SideTitle>Interests</SideTitle>
+    <SideTitle>Other</SideTitle>
     <List>{list.map((item, i) => <Item key={i}>{item}</Item>)}</List>
   </Container>
 );

@@ -14,7 +14,7 @@
         {
             "icon": "globe",
             "key": "website",
-            "value": "skeirys.com"
+            "value": "saulius.dev"
         },
         {
             "icon": "github",
@@ -24,11 +24,33 @@
         {
             "icon": "linkedin",
             "key": "website",
-            "value": "linkedin.com/sskeirys"
+            "value": "linkedin.com/in/sauliusskeirys"
         }
     ],
-    "skills": [ "Javascript", "React & Redux", "GraphQL", "ES6", "JSP", "Node", "TypeScript", "Zuul", "LESS", "PostCSS", "Webpack", "Jest"],
+    "skills": [ "Javascript", "React & Redux", "GraphQL", "ES6", "JSP", "Node", "TypeScript", "Zuul", "Docker", "PostCSS", "Webpack", "Jest"],
     "experiences": [
+          {
+            "company": "Northern Trust, Chicago, IL",
+            "position": "Senior Software Engineer",
+            "timeperiod": "Since November 2018",
+            "highlights": [
+              "Keep breaking code and moving teams towards tomorrow's goal"
+            ],
+            "keywords": [ "React", "Node", "ES6", "TypeScript", "Jest", "Webpack", "Zuul", "Selenium", "Docker" ]
+        },
+        {
+            "company": "Nike, Portland, OR",
+            "position": "Senior Front End Engineer",
+            "timeperiod": "May 2018 - November 2018",
+            "highlights": [
+                "Led Nike Member Access Admin application foundation and creation",
+                "Separated client from business logic and developed Node & GraphQL middle layer to communicate with multiple AWS webservices",
+                "Provided e2e testing using Cypress and automated CI/CD process using Jenkins",
+                "Contributed to Nike Reusable Component Library",
+                "Application successfully launched for China"
+            ],
+            "keywords": [ "React", "Node", "Redux", "ES6", "TypeScript", "Jest", "Webpack", "PostCSS", "Zuul", "Selenium" ]
+        },
         {
             "company": "Nike, Portland, OR",
             "position": "Senior Front End Engineer",
@@ -53,7 +75,7 @@
                 "Led* engineering and building Reusable React Components Library used by multiple teams",
                 "Contributed to Platform CLI to be able aggregate multiple React or Angular independent applications, share and update state",
                 "Provided e2e testing using Selenium and automated CI/CD process using Bamboo",
-                "Consultant on intricacies of implementing features and design accross multiple teams"
+                "Consultant on intricacies of implementing features and design across multiple teams"
             ],
             "keywords": [ "React", "Node", "Redux", "ES6", "TypeScript", "Jest", "Webpack", "PostCSS", "Zuul", "Selenium" ]
         },
@@ -88,15 +110,8 @@
             "timeperiod": "September 2010 - June 2014"
         }
     ],
-    "projects": [
-        {
-            "title": "",
-            "link": null,
-            "description": ""
-        }
-    ],
     "reference": {
         "link": "https://www.linkedin.com/in/sauliusskeirys/"
     },
-    "hobbies": [ "Basketball", "CrossFit", "Hiking/Camping" ]
+    "hobbies": [ "Basketball fanatic", "Animal lover", "Outdoorsy" ]
 }

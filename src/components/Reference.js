@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Link = styled.a`
+export const Link = styled.a`
   text-decoration: none;
   color: #97aac3;
 
@@ -10,8 +10,8 @@ const Link = styled.a`
   }
 `;
 
-const Reference = ({ data }) => {
-  if (!data) return <div />;
+const Reference = ({data}) => {
+  if(!data) return <div />;
   return (
     <span>
       <i>

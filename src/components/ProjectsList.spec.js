@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import ProjectsList from './ProjectsList';
 import Project from './Project';
 
@@ -8,7 +8,7 @@ describe('<ProjectList />', () => {
   const data = [{}, {}];
 
   it('should render two <Project /> components', () => {
-    const wrapper = shallow(<ProjectsList list={data} />);
-    expect(wrapper.first(Project).length).toBe(2);
+    const wrapper = mount(<ProjectsList list={data} />);
+    expect(wrapper.find(Project).length).toBe(2);
   });
 });
