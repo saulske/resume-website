@@ -52,6 +52,19 @@
             "keywords": [ "React", "Node", "Redux", "ES6", "TypeScript", "Jest", "Webpack", "PostCSS", "Zuul", "Selenium" ]
         },
         {
+            "company": "Nike, Portland, OR",
+            "position": "Senior Front End Engineer",
+            "timeperiod": "Since May 2018",
+            "highlights": [
+                "Led Nike Member Access Admin application foundation and creation",
+                "Seperated client from business logic and developed Node & GraphQL middle layer to communicate with multiple AWS webservices",
+                "Provided e2e testing using Cypress and automated CI/CD process using Jenkins",
+                "Contributed to Nike Reusable Component Library",
+                "Application succesfully launched for China"
+            ],
+            "keywords": [ "React", "Node", "Redux", "ES6", "TypeScript", "Jest", "Webpack", "PostCSS", "Zuul", "Selenium" ]
+        },
+        {
             "company": "Northern Trust, Chicago, IL",
             "position": "Front End Engineer",
             "timeperiod": "July 2017 - May 2018",
