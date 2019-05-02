@@ -9,7 +9,7 @@
         {
             "icon": "envelope-o",
             "key": "email",
-            "value": "saulske@email.com"
+            "value": "saulske@gmail.com"
         },
         {
             "icon": "globe",
@@ -37,19 +37,6 @@
               "Keep breaking code and moving teams towards tomorrow's goal"
             ],
             "keywords": [ "React", "Node", "ES6", "TypeScript", "Jest", "Webpack", "Zuul", "Selenium", "Docker" ]
-        },
-        {
-            "company": "Nike, Portland, OR",
-            "position": "Senior Front End Engineer",
-            "timeperiod": "May 2018 - November 2018",
-            "highlights": [
-                "Led Nike Member Access Admin application foundation and creation",
-                "Separated client from business logic and developed Node & GraphQL middle layer to communicate with multiple AWS webservices",
-                "Provided e2e testing using Cypress and automated CI/CD process using Jenkins",
-                "Contributed to Nike Reusable Component Library",
-                "Application successfully launched for China"
-            ],
-            "keywords": [ "React", "Node", "Redux", "ES6", "TypeScript", "Jest", "Webpack", "PostCSS", "Zuul", "Selenium" ]
         },
         {
             "company": "Nike, Portland, OR",
